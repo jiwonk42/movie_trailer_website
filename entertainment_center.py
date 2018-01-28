@@ -15,4 +15,6 @@ orphan = media.Movie(
     "http://www.gstatic.com/tv/thumb/movieposters/193289/p193289_p_v8_aa.jpg",
     "https://www.youtube.com/watch?v=2ywOPNNii9w")
 
-print(orphan.storyline)
+#print(orphan.storyline)
+
+grinch.show_trailer()
