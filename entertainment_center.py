@@ -33,6 +33,12 @@ cradle = media.Movie(
     "http://www.gstatic.com/tv/thumb/movieposters/13677/p13677_p_v8_ae.jpg",
     "https://www.youtube.com/watch?v=0_Lujfdix9A")
 
+gladiator = media.Movie(
+    "Gladiator",
+    "When a Roman General is betrayed, and his family murdered by an emperor's corrupt son, he comes to Rome as a gladiator to seek revenge.",
+    "http://t3.gstatic.com/images?q=tbn:ANd9GcRuhegCaGHfcQc-Owpib9vGSO0hUlSUMTojO2s4ih8oXqHBw2ks",
+    "https://www.youtube.com/watch?v=owK1qxDselE")
+
 #print(orphan.storyline)
 
 grinch.show_trailer()
