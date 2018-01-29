@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 #media: another file that has Movie Class
 
@@ -40,5 +41,9 @@ gladiator = media.Movie(
     "https://www.youtube.com/watch?v=owK1qxDselE")
 
 #print(orphan.storyline)
+#grinch.show_trailer()
 
-grinch.show_trailer()
+#Movies Array
+movies = [grinch, orphan, shawshank, hannibal, cradle, gladiator]
+
+fresh_tomatoes.open_movies_page(movies)
