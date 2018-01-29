@@ -26,7 +26,7 @@ hannibal = media.Movie(
     "Hannibal",
     " Living in exile, Hannibal Lecter tries to reconnect with now disgraced F.B.I. Agent Clarice Starling, and finds himself a target for revenge from a powerful victim.",
     "http://www.gstatic.com/tv/thumb/movieposters/24118/p24118_p_v8_ad.jpg",
-    "https://www.youtube.com/watch?v=Lr3OavheNu0")
+    "https://www.youtube.com/watch?v=Lr3OavheNu0&t=4s")
 
 cradle = media.Movie(
     "A Hand That Rocks the Cradle",
@@ -46,4 +46,5 @@ gladiator = media.Movie(
 #Movies Array
 movies = [grinch, orphan, shawshank, hannibal, cradle, gladiator]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
