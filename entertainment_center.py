@@ -27,6 +27,12 @@ hannibal = media.Movie(
     "http://www.gstatic.com/tv/thumb/movieposters/24118/p24118_p_v8_ad.jpg",
     "https://www.youtube.com/watch?v=Lr3OavheNu0")
 
+cradle = media.Movie(
+    "A Hand That Rocks the Cradle",
+    "After her humiliated husband kills himself, an embittered pregnant widow loses her child, and embarks on a mission of vengeance against a woman and her family.",
+    "http://www.gstatic.com/tv/thumb/movieposters/13677/p13677_p_v8_ae.jpg",
+    "https://www.youtube.com/watch?v=0_Lujfdix9A")
+
 #print(orphan.storyline)
 
 grinch.show_trailer()
