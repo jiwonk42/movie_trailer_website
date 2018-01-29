@@ -15,6 +15,12 @@ orphan = media.Movie(
     "http://www.gstatic.com/tv/thumb/movieposters/193289/p193289_p_v8_aa.jpg",
     "https://www.youtube.com/watch?v=2ywOPNNii9w")
 
+shawshank = media.Movie(
+    "The Shawshank Redemption",
+    "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "http://t0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm",
+    "https://www.youtube.com/watch?v=6hB3S9bIaco")
+
 #print(orphan.storyline)
 
 grinch.show_trailer()
