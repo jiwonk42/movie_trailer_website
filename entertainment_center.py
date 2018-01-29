@@ -21,6 +21,12 @@ shawshank = media.Movie(
     "http://t0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm",
     "https://www.youtube.com/watch?v=6hB3S9bIaco")
 
+hannibal = media.Movie(
+    "Hannibal",
+    " Living in exile, Hannibal Lecter tries to reconnect with now disgraced F.B.I. Agent Clarice Starling, and finds himself a target for revenge from a powerful victim.",
+    "http://www.gstatic.com/tv/thumb/movieposters/24118/p24118_p_v8_ad.jpg",
+    "https://www.youtube.com/watch?v=Lr3OavheNu0")
+
 #print(orphan.storyline)
 
 grinch.show_trailer()
